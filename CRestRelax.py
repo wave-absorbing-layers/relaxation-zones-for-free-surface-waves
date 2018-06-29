@@ -131,7 +131,7 @@ def abs(x):
 # evaluate blending function
 def b(x):
 	if (x >= Lx):
-		# linear
+		# power
 		if (blend == "1"):
 			w = ( ( x - Lx ) / ( ( Lx + layerThickness ) - Lx ) )**n  # Eq. (7) in [2]
 
